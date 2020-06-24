@@ -1,0 +1,112 @@
+/* START OF RESET CSS 2.0 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END OF RESET CSS 2.0 */
+
+@font-face {
+  font-family: Interface_Rg;
+  src: url(./assets/InterFace_Rg.ttf);
+}
+
+@font-face {
+  font-family: Interface_Bd;
+  src: url(./assets/InterFace_Bd.ttf);
+}
+
+@font-face {
+  font-family: Interface_XBd;
+  src: url(./assets/InterFace_XBd.ttf);
+}
+
+.container {
+  width: 800px; height: 600px;
+  background-color: #252a2d;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandImg {
+  width: 281px; height: 27px;
+  position: absolute;
+  top: 110px;
+  opacity: 0;
+}
+
+.hr {
+  width: 500px; height: 4px; border-radius: 2px;
+  background-color: #009A44;
+  position: absolute;
+  top: 190px;
+  opacity: 0;
+}
+
+h1 {
+  font-family: Interface_Bd;
+  font-size: 105px;
+  color: #ffffff;
+  position: absolute;
+  top: 220px;
+  opacity: 0;
+}
+
+h3 {
+  font-family: Interface_Rg;
+  font-size: 36px;
+  color: #cbcdcf;
+  position: absolute;
+  top: 330px;
+  opacity: 0;
+}
+
+footer {
+  font-family: Interface_Rg;
+  font-size: 17px;
+  color: #666c71;
+  position: absolute;
+  top: 560px;
+  opacity: 0;
+}
